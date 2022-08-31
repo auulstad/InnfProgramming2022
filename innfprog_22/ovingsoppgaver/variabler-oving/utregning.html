@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Utregning</title>
+    </head>
+    <body>
+        <p id=avarage></p>
+        <script>
+            const ageMom = 37
+            const ageDad = 32
+            const ageSon = 7
+            const ageDaughter = 2
+            const sum = ageMom + ageDad + ageSon + ageDaughter
+            const gjennomsnittsalder = sum / 4 
+            const utskrift = "Gjennomsnittsalderen til familien er " + gjennomsnittsalder
+            document.getElementById("avarage").innerHTML = utskrift
+        </script>
+    </body>
+</html>
