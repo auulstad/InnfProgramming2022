@@ -51,8 +51,9 @@
             greeting = "beklager";
         } else {
             greeting = "gratulerer";
-            const output = greeting + ", " + myName + "<br />Du klarte det!";
-            //Variabelen "greeeting" var i begynnelsen skrevet med tre e-er, kontra to. Her vil det dermed bare bli en "undefined" feil.  
+            const output = (greeting + ", " + myName + "<br />Du klarte det!");
+            //Variabelen "greeeting" var i begynnelsen skrevet med tre e-er, kontra to. Her vil det dermed bare bli en "undefined" feil.
+            //Satte på () for at alt sulle tenkes som en kommando i samme.   
             const textElement = document.getElementById("text");
             //Tidligere i HTML koden er id-en tekst, skrevet med småbokstaver. Her var det skrevet på følgende måte "TEXT" - derfor finner ikke koden id-en som det søkes etter og koden blir feil. 
             const saluteElement = document.getElementById("salute");
